@@ -13,7 +13,7 @@ const Produtos = () => {
             <div className="box">
               <div className="imgBox">
                 <img 
-                  src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                  src="https://rafaellindemann.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ffc91fd6e-8ab9-4702-9997-d40bff18f361%2F319f4c3e-82a3-4672-9613-69beabdbd757%2Ffarmarcia-placa.png?table=block&id=6756a027-a925-4623-87a2-33e0726a2221&spaceId=fc91fd6e-8ab9-4702-9997-d40bff18f361&width=1150&userId=&cache=v2" 
                   alt="Trust & Co." 
                 />
               </div>
@@ -25,11 +25,10 @@ const Produtos = () => {
             </div>
           </div>
           <div className="content">
-            <h3>trust &amp; co.</h3>
-            <p>Fill out the form and the algorithm will offer the right team of experts</p>
+            <h3>Localidade</h3>
+            <p>Encontre a farmacia que encantou o brasil na sua cidade.</p>
             <ul>
-              <li style={{ '--clr-tag': '#d3b19a' }} className="branding">branding</li>
-              <li style={{ '--clr-tag': '#70b3b1' }} className="packaging">packaging</li>
+              <li style={{ '--clr-tag': '#d3b19a' }} className="branding">Maps e Google  </li>
             </ul>
           </div>
         </div>
