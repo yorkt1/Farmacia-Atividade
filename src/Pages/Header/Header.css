@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -49,35 +53,35 @@ header {
 .icon-link {
     text-decoration: none;
     color: #333;
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px 12px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 .icon-link:hover {
-    background-color: #ddd;
+    background-color: #e6e6e6;
 }
 
 .category-bar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: #ef9eaa;
+    padding: 20px 20px;
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
 }
 
 .category-bar a {
-    color: #fff;
+    color: #ce1f3a;
     text-decoration: none;
     padding: 0 15px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
     
 }
 
 .category-bar a:hover {
-    background-color: #555;
+    background-color: #b6b6b6;
 }

@@ -1,0 +1,105 @@
+/* Estilo para a seção geral */
+.abt-section {
+    width: auto;
+    height: 100%; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    padding: 0 20px; /* Adiciona espaçamento interno */
+}
+
+/* Contêiner da grade */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Linha da grade */
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Coluna da imagem e do texto */
+.col-lg-6,
+.col-md-12 {
+    flex: 1;
+    padding: 10px; /* Adiciona espaçamento interno opcional */
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+/* Ajusta a imagem para preencher o contêiner */
+.img-fluid {
+    max-width: 80%; /* Ajuste a largura da imagem para se adequar ao layout */
+    height: auto;
+    display: block; /* Remove o espaçamento abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 20px ;
+}
+
+
+/* Estilo para o texto */
+.abt-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.top-sub {
+    font-size: 1rem;
+    color: #666; /* Cor opcional para o texto */
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.orange-text {
+    color: #e23e57; /* Ajuste conforme necessário */
+}
+
+.boxed-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e23e57; /* Cor de fundo opcional */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px; /* Borda arredondada opcional */
+    width: 80px; 
+}
+
+.boxed-btn:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+}
+
+.mt-4 {
+    margin-top: 10px; /* Adiciona margem superior opcional */
+}
+
+p{ font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+    color: #051922;
+    margin: 0 0 1.25rem 0;}
+    main {
+        margin-top: 60px; /* Para compensar o header fixo */
+    }
+    
+    .section {
+        height: 100vh; /* Faz cada seção ocupar a altura da viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        padding: 20px;
+    }

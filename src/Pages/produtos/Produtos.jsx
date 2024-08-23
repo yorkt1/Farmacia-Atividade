@@ -49,11 +49,11 @@ const Produtos = () => {
             </div>
           </div>
           <div className="content">
-            <h3>tonic</h3>
-            <p>Fill out the form and the algorithm will offer the right team of experts</p>
+            <h3>Novidades</h3>
+            <p>Conheça todas as novidades de produtos da nova farmacia</p>
             <ul>
-              <li style={{ '--clr-tag': '#d3b19a' }} className="branding">branding</li>
-              <li style={{ '--clr-tag': '#d05fa2' }} className="marketing">marketing</li>
+              <li style={{ '--clr-tag': '#d3b19a' }} className="branding">Novos Produtos </li>
+            
             </ul>
           </div>
         </div>
