@@ -19,7 +19,7 @@ function Sobrenos() {
                             <p>Idade: 32 anos</p>
                             <p>Formada em administração de empresas, Márcia é apaixonada por empreendedorismo e design. Após o fim de um casamento, comprou a farmácia do tio Mário e a transformou, implementando tecnologia para modernizar o negócio.</p>
                             <p>Agora busca um programador para desenvolver um site e apps móveis, visando uma experiência de compra moderna. Determinada, Márcia está comprometida em fazer da Farmácia um sucesso!</p>
-                            <a href="index.html" className="boxed-btn mt-4">Saber mais</a>
+                            <a href="/" className="boxed-btn mt-4">Saber mais</a>
                         </div>
                     </div>
                 </div>

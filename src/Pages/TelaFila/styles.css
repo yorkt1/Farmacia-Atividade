@@ -1,0 +1,117 @@
+:root {
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: var(--cor-2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--cor-3);
+}
+
+main {
+    padding: 20px;
+}
+
+main .body {
+    background-color: var(--cor-2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+main .body h1, main .body h2, main .body h3 {
+    color: var(--cor-1);
+}
+
+.senha-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.senha-area {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.senha-area:last-child {
+    margin-right: 0;
+}
+
+.senha-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.senha-controls button:hover {
+    background-color: var(--cor-1);
+}
+
+#display-senha {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--cor-4);
+}
+
+.senha-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.senha-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.senha-list:last-child {
+    margin-right: 0;
+}
+
+.senha-list h3 {
+    color: var(--cor-1);
+}
+
+.senha-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.senha-list ul li {
+    background-color: var(--cor-6);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
+:root {
+    --cor-1: #e23e57; /* Cor primária */
+    --cor-2: #ffffff; /* Branco */
+    --cor-3: #e96a7e; /* Tom rosa mais claro */
+    --cor-4: #ce1f3a; /* Vermelho mais escuro */
+    --cor-5: #e6e6e6; /* Cinza claro */
+    --cor-6: #ef97a4; /* Rosa claro */
+}
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
 }
 
 header {
-    background-color: #ffff;
-    border-bottom: 1px solid #ddd;
+    background-color: var(--cor-2); /* Branco */
+    border-bottom: 1px solid var(--cor-5); /* Cinza claro */
     padding: 10px 20px;
 }
 
@@ -27,17 +34,20 @@ header {
 .search-bar input {
     padding: 15px;
     width: 600px;
-    border: 1px solid #e6e6e6;
-    background-color: #e6e6e6;
+    border: 1px solid var(--cor-1); /* Cinza claro */
+    background-color: var(--cor-1); /* Cinza claro */
+   
     border-radius: 4px;
     align-items: center;
 }
 
-.search-bar{
+.input{color: var(--cor-2);}
+
+.search-bar {
     display: flex;
     align-items: center;
-   justify-content: center;
-    background-color: #e6e6e6;
+    justify-content: center;
+    background-color: var(--cor-1); /* Cinza claro */
     border-radius: 4px;
     width: 50%;
     padding-left: 10px;
@@ -52,7 +62,7 @@ header {
 
 .icon-link {
     text-decoration: none;
-    color: #333;
+    color: var(--cor-1);
     font-size: 20px;
     padding: 8px 12px;
     border-radius: 4px;
@@ -60,11 +70,11 @@ header {
 }
 
 .icon-link:hover {
-    background-color: #e6e6e6;
+    background-color: var(--cor-3); /* Cinza claro */
 }
 
 .category-bar {
-    background-color: #ef9eaa;
+    background-color: var(--cor-6); /* Rosa claro */
     padding: 20px 20px;
     display: flex;
     overflow-x: auto;
@@ -72,16 +82,15 @@ header {
 }
 
 .category-bar a {
-    color: #ce1f3a;
+    color: var(--cor-4); /* Vermelho escuro */
     text-decoration: none;
     padding: 0 15px;
     font-size: 20px;
     line-height: 24px;
     transition: background-color 0.3s ease;
-    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .category-bar a:hover {
-    background-color: #b6b6b6;
+    background-color: #b6b6b6; /* Cinza escuro */
 }

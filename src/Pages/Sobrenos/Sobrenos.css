@@ -1,4 +1,14 @@
 /* Estilo para a seção geral */
+
+:root {
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+  }
+  
 .abt-section {
     width: auto;
     height: 100%; /* Ajuste conforme necessário */
@@ -53,7 +63,7 @@
 
 .top-sub {
     font-size: 1rem;
-    color: #666; /* Cor opcional para o texto */
+    color: var(--cor-4); /* Cor opcional para o texto */
 }
 
 h2 {
@@ -62,21 +72,21 @@ h2 {
 }
 
 .orange-text {
-    color: #e23e57; /* Ajuste conforme necessário */
+    color: var(--cor-3); /* Ajuste conforme necessário */
 }
 
 .boxed-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e23e57; /* Cor de fundo opcional */
-    color: #fff; /* Cor do texto */
+    background-color: var(--cor-3); /* Cor de fundo opcional */
+    color: var(--cor-2); /* Cor do texto */
     text-decoration: none;
     border-radius: 5px; /* Borda arredondada opcional */
     width: 80px; 
 }
 
 .boxed-btn:hover {
-    background-color: #444; /* Cor de fundo ao passar o mouse */
+    background-color: var(--cor-6); /* Cor de fundo ao passar o mouse */
 }
 
 .mt-4 {
@@ -88,7 +98,7 @@ p{ font-family: "Open Sans", sans-serif;
     font-size: 2;
     letter-spacing: 0.1px;
     line-height: 1.8;
-    color: #051922;
+    color: var(--cor-6);
     margin: 0 0 1.25rem 0;}
     main {
         margin-top: 60px; /* Para compensar o header fixo */

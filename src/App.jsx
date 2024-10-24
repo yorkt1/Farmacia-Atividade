@@ -1,28 +1,32 @@
-
 import './App.css'
-import Header from './Pages/Header/Header'
-import Produtos from './Pages/produtos/Produtos'
-import Inicio from './Pages/Inicio/Inicio'
-import Sobrenos from './Pages/Sobrenos/Sobrenos'
 
+import Home from './Pages/Home/Home'; 
+
+import Telafila from './Pages/TelaFila/Telafila'  // Corrigir o caminho para a Tela da Fila
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   // Função para rolar suavemente para uma seção específica
-  const scrollToSection = (id) => {
-      const element = document.getElementById(id);
-      if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-      }
-  };
+ 
+
   return (
-    <>
-     <Header onScrollToSection={scrollToSection}/>
-     <Inicio/>
-     <Produtos/>
-     <Sobrenos/>
-    
-    </>
+    <Router> 
+      <>
+        
+        
+        <Routes>
+          
+          <Route path="/" element={<Home />} />
+          
+         
+          <Route path="/fila" element={<Telafila />} />
+        </Routes>
+
+       
+      
+      </>
+    </Router>
   )
 }
 
-export default App
+export default App;
